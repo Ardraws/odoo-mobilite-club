@@ -49,6 +49,10 @@
   }
 }
 
+body, * {
+  font-family: "Poppins", sans-serif;
+}
+
 .products_attributes_filters input[type="checkbox"] {
   margin-left: 0;
   height: var(--wp--preset--spacing--50);
