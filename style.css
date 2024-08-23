@@ -94,3 +94,21 @@
 .products_attributes_filters input[type="checkbox"]:checked::after {
   display: block;
 }
+
+.oe_product > div {
+  padding: var(--wp--preset--spacing--40);
+  border-radius: var(--wp--preset--spacing--40);
+  background-color: var(--wp--preset--color--custom-bleu-tr-s-clair);
+}
+
+.oe_product_cart {
+  border: none;
+}
+
+.text-primary {
+  color: var(--wp--preset--color--custom-bleu-fonc) !important;
+}
+
+.oe_product_cart .oe_product_image .oe_product_image_link .oe_product_image_img_wrapper img {
+  border-radius: var(--wp--preset--spacing--40);
+}
